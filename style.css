@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    color: #333;
+}
+
+form {
+    width: 100%;
+    max-width: 450px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    
+    
+}
+
+label {
+    font-weight: 700px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+#percentage{
+    width: 50%;
+}
+
+input[type="text"] {
+    /* width: 120px; */
+    padding: 2px;
+    margin-bottom: 20px;
+    border: 1px solid #8dfc3d;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #10588b;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 120px;
+}
+
+button:hover {
+    background-color: #20618c;
+}
+
+p#result {
+    font-weight: 700;
+    margin-top: 20px;
+    color: #f23838;
+    font-size: 35px;
+    border: 2px solid #56a7ac; /* Add a border with a color */
+    border-radius: 5px;     /* Add border radius */
+    padding: 10px;          /* Add padding for spacing */
+    background-color: #f0f0f0; /* Add an appropriate background color */
+
+}
